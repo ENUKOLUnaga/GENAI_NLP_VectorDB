@@ -263,7 +263,7 @@ Provide 2 examples before asking the task.
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 paragraph="""
 
@@ -288,7 +288,7 @@ print(response.choices[0].message.content)
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 pargraph="""
  When Percy Jackson gets an urgent distress call from his friend Grover, he immediately prepares for battle. He knows he will need his powerful demigod allies at his side, his trusty bronze sword Riptide, and… a ride from his mom.
@@ -319,7 +319,7 @@ print(response.choices[0].message.content)
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 paragraph="""
  When Percy Jackson gets an urgent distress call from his friend Grover, he immediately prepares for battle. He knows he will need his powerful demigod allies at his side, his trusty bronze sword Riptide, and… a ride from his mom.
@@ -347,7 +347,7 @@ print(response.choices[0].message.content)
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 paragraph="""
  When Percy Jackson gets an urgent distress call from his friend Grover, he immediately prepares for battle. He knows he will need his powerful demigod allies at his side, his trusty bronze sword Riptide, and… a ride from his mom.
@@ -375,7 +375,7 @@ print(response.choices[0].message.content)
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 prompt = """
 Input: A boy saved a dog from drowning in a river and became a hero.
@@ -439,7 +439,7 @@ for review, result in zip(reviews, results):
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 product = "Smart Fitness Watch"
 
@@ -481,7 +481,7 @@ major technology company announced a breakthrough in artificial intelligence, in
 innovation could transform industries such as healthcare, finance, and education. However, concerns remain about ethical implications and job displacement.
 """
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 article = input("Paste your article here:\n")
 
@@ -505,7 +505,7 @@ print(response.choices[0].message.content)
 
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 def chat(user_input):
     response = client.chat.completions.create(
@@ -532,7 +532,7 @@ while True:
 from groq import Groq
 
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 text = "The product is okay, not great but not bad."
 
